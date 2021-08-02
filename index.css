@@ -1,0 +1,22 @@
+.input-box {
+  width: 18em;
+  height: 2.5em;
+  border-width: 0.1em;
+  border-color: #c4c4c4;
+}
+.button-style {
+  background: linear-gradient(to top, #eeeeee, #d6d6d6);
+  border-width: 0.1em;
+  border-color: #c4c4c4;
+  width: 6em;
+  height: 4em;
+  margin: 0.1em;
+}
+
+.button-style:focus {
+  background: linear-gradient(to bottom, #eeeeee, #d6d6d6);
+}
+
+.button-style:active {
+  background: linear-gradient(to top, #eeeeee, #d6d6d6);
+}
